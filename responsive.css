@@ -17,9 +17,13 @@
     margin-top: 5px;
   }
   
+  .descfood {
+    position: relative;
+  }
+  
   .header-right a {
    line-height: 35px;
-}
+  }
   
   .food .container {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
