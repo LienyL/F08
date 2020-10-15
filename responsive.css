@@ -1,0 +1,104 @@
+@media (max-width: 1000px) {
+  .title {
+    font-size: 38px;
+    text-align: center;
+    line-height: 1.25rem;
+  }
+  
+  .subtitle {
+    font-size: 12px;
+  }
+  
+  .desc {
+    display: none;
+  }
+  
+  .read-more{
+    margin-top: 5px;
+  }
+  
+  .header-right a {
+   line-height: 35px;
+}
+  
+  .food .container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    margin: 50px;
+  }
+
+  .container .card {
+    flex-direction: row;
+    margin: 10px 0;
+  }
+
+  .container .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .container .card .image,
+  .container .card .content {
+    width: 50%;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+}
+
+
+@media (max-width: 670px) {
+  header {
+    height: 125px;
+  }
+  
+  .subtitle {
+    line-height: 4.4rem;
+  }
+  
+  .small-title {
+    font-size: 12px;
+  }
+  
+  .big-title {
+    font-size: 20px;
+  }
+  
+  .read-more {
+    display: none;
+  }
+
+  
+  .menu-icon {
+    margin-top: 2px 5px;
+    display: block;
+  }
+
+  .header-right, .header-list {
+    display: none;
+  }
+
+  .container .card {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .container .card:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .container .card .image,
+  .container .card .content {
+    width: 100%;
+  }
+
+  .container .card .content {
+    height: 200px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
